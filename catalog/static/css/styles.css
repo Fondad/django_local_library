@@ -1,0 +1,12 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.c-1{
+    margin-top: 10px !important;
+}
+.w-1{
+    max-width: 25%;
+    margin-left: 0;
+}

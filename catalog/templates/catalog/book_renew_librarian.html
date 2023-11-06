@@ -1,0 +1,15 @@
+{% extends "catalog/base_generic.html" %}
+
+{% block content %}
+
+    <h1>Renew: {{bookinst.book.title}}</h1>
+    <p>Borrower: {{bookinst.borrower}}</p>
+    <p{% if bookinst.is_overdue %} class="text-danger"{% endif %}>Due date: {{bookinst.due_back}}</p>
+    <hr class="w-1">
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <p class="c-1"><input type="submit" value="Submit" /></p>
+    </form>
+
+{% endblock %}
