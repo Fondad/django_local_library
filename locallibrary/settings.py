@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-z=_wl#lc)6fa8=
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['agile-retreat-21359-312b2816b92f.herokuapp.com', '127.0.0.1']
 # 'hidden-thicket-61866-19be92d9eebb.herokuapp.com'
 
 # Application definition
